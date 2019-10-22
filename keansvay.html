@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> កៀនស្វាយ   </title>
+        <link rel = "stylesheet"  type = "text/css" href = "Style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <style>
+      
+    
+      #card{
+        margin-left:110px;
+        text-align: justify;
+      }
+      .btn-group btn-group-toggle{
+        margin-left: 110px;
+      }
+      #myTabContent p{
+        padding-top: 20px;
+        text-align: justify;
+      }
+      #myTabContent #video{
+        text-align: center;
+      }
+      #myTabContent #map{
+        margin-left: 450px;
+      }
+      .container {
+          text-align: center;
+      }
+      img{
+        padding-top:20px;
+      }
+      h5{
+        margin-bottom: 20px;
+      }
+
+      </style>
+      </head>
+    <body>
+      <div class="area">
+        <header>
+          <nav>
+            <ul>
+              <img src="image\home-icon-silhouette.png"/><li><a href="Home.html"> ទំព័រដើម</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ស្វែងរកទីតាំង
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <!-- <div class="dropdown-divider"></div> -->
+                      <a class="dropdown-item" href="Home.html">​កំពង់ថ្ម</a>
+                      <a class="dropdown-item" href="kirirom.html">គីរីរម្យ</a>                            
+                      <a class="dropdown-item" href="keansvay.html">កៀនស្វាយ</a>
+                      <a class="dropdown-item" href="kompot.html">កោះរ៉ុង</a>
+                    </div>
+                  </li>
+                  <li><a href="Home.html">អំពីពួកយើង</a></li>
+            </ul>
+          </nav>
+          <form id="f">
+                      <ul>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fa fa-search" aria-hidden="true"></i>
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <a class="dropdown-item" href="kompongtmor.html">​កំពង់ថ្ម</a>
+                                <a class="dropdown-item" href="kirirom.html">គីរីរម្យ</a>                            
+                                <a class="dropdown-item" href="keansvay.html">កៀនស្វាយ</a>
+                                <a class="dropdown-item" href="kompot.html">កោះរ៉ុង</a>
+                              </div>
+                            </li>
+                      </ul>
+                    </form>
+        </header>
+        <section id="content">
+           <!-- apply your content here -->
+
+           <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#home">អំពីរមណីយដ្ឋានកៀនស្វាយ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#profile">ផ្សារកៀនស្វាយ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " data-toggle="tab" href="#dropdown">កញ្ចុះ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " data-toggle="tab" href="#dropdown2">ទីតាំង</a>
+            </li>
+          </ul>
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade show active" id="home">
+              <p>
+                រមណីយដ្ឋានកៀន​ស្វាយក្រៅ ស្ថិតនៅក្នុង ឃុំ ភូមិធំ ស្រុកកៀនស្វាយ ចម្ងាយផ្លូវសរុបពីភ្នំពេញ ១៩ គ.ម។ នៅទី នោះមាន វត្តមួយដែលមាន​ឈ្មោះថា វត្តកៀនស្វាយក្រៅ។
+                 ដើម្បីទៅដល់វត្តនោះ​អ្នកទេសចរត្រូវធ្វើដំណើរ​តាមដង ផ្លូវជាតិលេខ ១ ដោយឆ្លងកាត់​ស្ពានព្រះមុនីវង្ស លុះទៅដល់គីឡូម៉ែត្រលេខ ១៩ មានផ្លូវលំនៅខាងឆ្វេងដៃ ដែល មានក្លោងទ្វារបញ្ជាក់ថា វត្តកៀនស្វាយក្រៅ ។ 
+                បន្តតាមផ្លូវលំនោះ ចំងាយ​​ប្រហែល​ ៣០០០ម៉ែត្រ ទៀតនឹង ទៅ ដល់ទីអារាមនោះ ។ ចេញដំណើរហួស​ពីវត្តប្រមាណជា ១០០ ម៉ែត្រ យើងឃើញកន្លែង​កម្សាន្តមួយ ដែលត្រូវគេ ស្គាល់ថា "​កៀនស្វាយ " នោះ ។
+              </p>
+              <p>
+                រមណីយដ្ឋាន​នេះដែលមានផ្ទៃដិ ១០ ហិចតា កើតឡើង​នៅ​ក្រោយ​សឲ្យឆ្នាំ ១៩៧៩ ដោយសារទីនេះមានសម្រស់ ធម្មជាតិដ៏អស្ចារ្យ លំអដោយម្លប់ឈើខ្ពស់ៗ 
+                តូចធំ ដ៏ត្រជាក់ត្រឈឹងត្រឈៃ និង មានដំណាំចំការ និង ដំណាំហូប ផ្លែគ្រប់មុខដ៏ស្រស់បំព្រងទៀត ។ ក្រៅពីនេះ នៅមានសម្រស់​ខ្ទបដ៏វិសេសវិសាលមួយទៀត 
+                ដែលបែកចេញ​ពីទន្លេមេគង្គ​កាត់ទឹកដីដ៏សំបូរជីវជាតិ និងចំការរុក្ខជាតិ​ដ៏ស្តុកស្តម ។ ទន្លេនេះ ហាក់ដូចជា​ប្រគល់ខ្លួន ទាំងស្រុង ដល់អ្នកស្រុកនៅទីនេះ ក្នុងការ​ប្រកបរបរដាំដុះ និង រស់នៅក្នុងក្តីសង្ឃឹម ។ 
+                ដើមរុក្ខជាតិហូប​ផ្លែតូចធំបានដុះទោរ ទន់ទៅរកផ្ទៃទឹកប្រប និង ឆ្នេរទន្លេខ្ទបហើយ​​បែកមែកត្រសុំ​ត្រសាយ​ចោលម្លប់ដ៏ធំល្វឹងល្វើយ ជាទីមនោរម្យសំរាប់ ភ្ញៀវទេសចរដែលមកកម្សាន្ត ។ 
+                យើងឃើញទន្លេខ្ទបនេះ ជាចំណុចសំខាន់ក្នុងការ​​ទាក់ទាញភ្ញៀវទេសចរ​ទាំងក្នុង និង ក្រៅប្រទេស​ឲ្យមកកម្សាន្ត ព្រោះទីនេះមានខ្យល់​អាកាសបរិសុទ្ធ និងសម្រស់ធម្មជាតីដ៏ស្រស់បំព្រង ។
+              </p>
+              <p>
+                ទន្ទឹមនឹងនោះទន្លេ​ជាមធ្យោបាយចម្លងពីទីនេះ​ទៅកាន់ភូមិក្អម ដែលមានតំបន់ផ្សេងៗជុំវិញទីនោះ ។ 
+                ម្យ៉ាងទៀត​រមណីយដ្ឋាន​​នេះមានការ​ទាក់ទាញភ្ញៀវផងដែរ ដោយសារមានផ្ទះ​បណ្តែតទឹក អាហារដ្ឋាន និងល្បែងកម្សាន្ត ផ្សេងៗពីព្រោះ​នៅទីនោះមានឳជារស​ដ៏​ឈ្ងុយឆ្ងាញ់នៃម្ហូប​អាហារដូចជា​មាន់ដុត 
+                ត្រីអាំង ​និងដំណាំហូប​ផ្លែជូចជា ខ្នុរ ល្មុត ស្វាយ ចេក ដូង… ។ល ។ 
+                ដោយអំនោយ​ផលពីធម្មជាតិ ធ្វើឲតំបន់​ទេសចរណ៍កៀនស្វាយ​នេះមាន ឥទ្ធិពល​ទាក់ទាញភ្ញៀវដូចជាផ្ទះទឹកមាន​ច្រើនតាមមាត់ទន្លេ ។  
+              </p>  
+              <p>
+                ដូច្នេះមន្ទីរទេសចរ​ខេត្តក៍ដូចជា អាជ្ញាធរដែនដី និង គណៈកម្មាធិការ​ភូមិរៀបចំអភិវឌ្ឍន៍ និងកែប្រែតំបន់ឲ្យបាន កាន់តែប្រសើរដូចជា រៀបចំសណ្តាប់ធ្នាប់​ការដាក់កង់ 
+                ម៉ូតូ ឡានឲបានសមរម្យជៀសវាង ភាពរញ៉េរញ៉ៃបាត់សោ ភ័ណ្ឌភាព ។ រៀបចំអនាម័យដាក់ធុងសំរាម​ជៀសវាងការចោរសំរាមរហេតរហូតរបស់ភ្ញៀវ ។
+                 រៀបចំសណ្តាប់ធ្នាប់ លក់ដូររបស់​ប្រជាជនឲបានល្អ បង្កើតគោលន​យោបាយល្អប្រសើរ និងរក្សាសន្តិសុខជូនភ្ញៀវទេសចរ ៕
+              </p>
+              
+                <div id="video" style="margin-bottom: 50px;">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/oaWlVa07KcY" frameborder="0" 
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                </div>
+              </div>  
+        
+              <div class="tab-pane fade" id="profile">
+                    <p> ផ្សារកៀនស្វាយគឺជាផ្សារដែលសម្បូរទៅដោយម្ហូបអាហារដែលមានរស់ជាតិបែបធម្មជាតិ និង​ មានប្រភេទផ្សេងៗ​គ្នា។
+                    បើនិយាយពីតំលៃវិញក៏មិនថ្លៃប៉ុន្មានដែរ វាអាស្រ័យទៅតាមមុនហ្ហូបដែលអ្នកម្មង់។
+                    អាហារប្រភេទអ្វីដែលអ្នកអាចរកបាននៅគៀនស្វាយក្រវ៉ាសូមពិនិត្យបញ្ជីខាងក្រោម៖  </p>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col -sm">
+                          <h5>១ សាច់មាន់ចៀន</h5>
+                          <p>
+                              មួយក្នុងចំនោមអាហារប្រមូលផ្តុំដែលពេញនិយមគឺសាច់ចៀន / បុកត្រូវបានគេឃើញស្ទើរតែគ្រប់ហាង។
+                              វាឆ្ងាញ់ហើយល្អគ្រប់ឱកាសជាពិសេសការចិញ្ចឹមបីបាច់ថែរក្សាគ្រួសារដូចជាអាហារនៅឯកៀន។​
+                          </p>
+                              <img  width="350"  height="380" src="image/keansvayF1.jpg">
+                        </div>
+                        <div class="col -sm">
+                          <h5>២ ត្រីដុត / ចៀន</h5>
+                          <p>
+                              នៅក្បែរទន្លេត្រីអាចជាជំរើសអាហារដ៏ល្អបំផុតនៅទីនេះ។
+                              ចាប់និងចម្អិនស្រស់ៗមានត្រីជាច្រើនប្រភេទដែលអ្នកអាចរីករាយនៅទីនេះ។
+                          </p>
+                               <img width="350"  height="380" src="image/keansvayf2.jpg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col -sm">
+                          <h5>៣ អន្សមអាំង</h5>
+                          <img  width="350"  height="380" src="image/keansvayf3.jpg"> 
+                        </div>
+                        <div class="col -sm">
+                          <h5> ៤ បង្អែម តាប៉ែ</h5>
+                          <img width="350"  height="380" src="image/keansvayf4.jpg" >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col -sm">
+                          <h5>៥ ពងក្រួច</h5>
+                          <p>
+                              ពងក្រួចគឺជាអាហារធម្មតានៅគ្រប់ទីកន្លែងសូម្បីតែនៅក្នុងប្រទេសកម្ពុជា។ ជ្រលក់ពងទាស្ងោរឬពងក្រួចដាក់ក្នុងអំបិលម្រេចខ្មៅដើម្បីទទួលបានរសជាតិឆ្ងាញ់បំផុតពីពង។
+                          </p>
+                              <img width="350"  height="380" src="image/keansvayf5.jpg" > 
+                        </div>
+                        <div class="col -sm">
+                          <h5>៦ ខ្យង</h5>
+                          <p>
+                              ត្រូវហើយខ្យងចំហុយជាមួយស្លឹកគ្រៃត្រូវបានគេទទួលស្គាល់ថាជាអាហារតាមផ្លូវល្អបំផុតមួយនៅក្នុងប្រទេសកម្ពុជា។ ក្លិនឈ្ងុយឆ្ងាញ់។
+                          </p>
+                               <img width="350"  height="380" src="image/keansvayf2.jpg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col -sm">
+                          <h5>៧ ជ្រក់</h5>
+                          <p>
+                              ពងក្រួចគឺជាអាហារធម្មតានៅគ្រប់ទីកន្លែងសូម្បីតែនៅក្នុងប្រទេសកម្ពុជា។ ជ្រលក់ពងទាស្ងោរឬពងក្រួចដាក់ក្នុងអំបិលម្រេចខ្មៅដើម្បីទទួលបានរសជាតិឆ្ងាញ់បំផុតពីពង។
+                          </p>
+                              <img width="350"  height="380" src="image/keansvayf7.jpg" > 
+                        </div>
+                        <div class="col -sm">
+                          <h5>៨ ប្រហិត</h5>
+                          <p>
+                              ចង់បានអ្វីដែលរហ័សនិងមានតម្លៃសមរម្យព្រោះអ្នកទើបតែមកដល់ឆាប់ៗនេះសាច់ប្រហិតអាចជាជំរើសរហ័សរបស់អ្នក។
+                          </p>
+                              <img width="350"  height="380" src="image/keansvayf9.jpg" >  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col -sm">
+                          <h5>៩ បង្កង អាំង និងគ្រឿងសមុទ្រ</h5>
+                          <p>
+                              ថ្វីត្បិតតែជាបក្សីតូចក្តីហ្គីលគឺជាអាហារដែលល្បីនៅក្នុងប្រទេសកម្ពុជា។ដូចគ្នានេះផងដែរអាហារសមុទ្រត្រូវបានគេមើលឃើញនៅទីនេះទោះបីជាឆ្ងាយពីសមុទ្រក៏ដោយ។
+                          </p>
+                              <img width="350"  height="380" src="image/keansvayf7.jpg" > 
+                        </div>
+                        <div class="col -sm">
+                          <h5>១០ សត្វល្អិត ចៀន</h5>
+                          <p>
+                              ចង់បានអ្វីដែលរហ័សនិងមានតម្លៃសមរម្យព្រោះអ្នកទើបតែមកដល់ឆាប់ៗនេះសាច់ប្រហិតអាចជាជំរើសរហ័សរបស់អ្នក។
+                          </p>
+                              <img width="350"  height="380" src="image/keansvayf15.jpg" >  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col -sm">
+                          <h5>១១ ផ្លែឈើ</h5>
+                          <p>
+                              ចង់សាកល្បងផ្លែឈើក្នុងស្រុកទេ? ដោយមិនចាំបាច់ទៅឆ្ងាយទិញវានៅទីនេះប្រសិនបើអ្នកបានមកទីនេះសម្រាប់ថ្ងៃសម្រាក។
+                          </p>
+                              <img width="364"  height=467 src="image/keansvayf14.jpg" >  
+                        </div>
+                        <div class="col -sm">
+                          <h5>១២ ផ្សេងៗ</h5>
+                               <img width="250"  height="200" src="image/keansvayf16.jpg" > 
+                               <img width="250"  height="200" src="image/keansvayf18.jpg" > 
+                               <img width="250"  height="200" src="image/keansvayf6.jpg" > 
+                               <img width="250"  height="200" src="image/keansvayf11.jpg" > 
+                        </div>
+                      </div>
+                    </div> ​ 
+              </div>
+              
+              <div class="tab-pane fade" id="dropdown">
+                <p>នៅពេលដែលអ្នកបានតាំងទីលំនៅទាំងអស់អ្នកអាចបញ្ជាទិញម្ហូប (ប្រសិនបើអ្នកចង់បាន) ឬគ្រាន់តែរីករាយនឹងភេសជ្ជៈត្រជាក់ដោយទឹក។ <br>
+                យើងបានកុម្ម៉ង់សាច់មាន់អាំងទាំងមូលជាមួយបាយនិងបន្លែចៀនខ្លះដែលមានតម្លៃប្រហែល ១០ ដុល្លារ។ ស្រាបៀរមានតម្លៃ ៣.០០០ រៀលទឹកកកមានទឹកកក ១.០០០ រៀល។ <br></p>
+                <div class="container" style="text-align: center; margin-top: 70px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5BZ88iuHDGA" frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><br></iframe>
+                <br>
+                </div>
+                <div class="container" style="text-align: center; margin-top: 70px;">
+                <img width="560" height="315" src="image/keansvay6.jpg" > <br> 
+                រូបភាពបង្ហាញពីច្រកចូលកញ្ចុះ<br> </div>
+                <div class="container" style="text-align: center; margin-top: 70px;">
+                <img width="560" height="315" src="image/keansvay4.jpg" > <br> 
+                រូបភាពបង្ហាញនៅវេលាពេលល្ងាច ព្រមទាំងព្រះអាទិត្យរាបនិងលិច<br> </div>
+              </div>
+              
+              <div class="tab-pane fade" id="dropdown2">
+                <p>
+                រមណីយដ្ឋានកៀនស្វាយនៅក្បែរវត្តគៀនស្វាយក្រៅរស្ថិតក្នុងឃុំធំស្រុកកៀនស្វាយមានចម្ងាយប្រហែល ១៩គីឡូម៉ែត្រពីរាជធានីភ្នំពេញឬប្រហែល៣០គីឡូម៉ែត្រពីតាខ្មៅ។ដើម្បីទៅដល់វត្តកៀនស្វាយឆ្លងកាត់ស្ពានព្រះមុនីវង្សហើយធ្វើដំណើរទៅទិសខាងកើតមានចម្ងាយ១៩គីឡូម៉ែត្រតាមផ្លូវជាតិលេខ១.ខ្លោងទ្វារទៅវត្តស្ថិតនៅខាងឆ្វេង។កន្លែងនោះមានចម្ងាយប្រហែល ៣០០ ម៉ែត្រនៅខាងក្នុងខ្លោងទ្វារ។
+                </p>
+
+              <div id="map" style="margin-top: 70px; margin-left: 350px;">
+              <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" 
+                 src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5609.408281782008!2d105.05028858703491!3d11.
+                 509868673607638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310bfd412463128d%3A0xedb75df7dc88f5ea!2sKien%20Svay
+                 !5e0!3m2!1sen!2skh!4v1571145533643!5m2!1sen!2skh"
+                 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        
+                </div>
+              </div>
+            </div>
+          </div>
+              
+        </section>
+    <footer>
+      <p>រក្សាសិទ្ធ​ @ ២០១៩​ គេហទំព័រតំបន់ទេសចរណ៍​ ។ រក្សាសិទ្ធ​គ្រប់យ៉ាង</p>
+      <a href="#"><i class="fa fa-angle-double-up fa-2x" aria-hidden="true"></i></a>
+    </footer>
+  </div>
+    </body>
+</html>

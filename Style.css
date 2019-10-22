@@ -1,0 +1,167 @@
+.area{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* header element */
+
+header{
+    font-family:Khmer OS Muol Light;
+    width: 100%;
+    height: 80px; 
+    background:rgb(104, 104, 185);
+    border-bottom: 3px rgb(78, 175, 179) solid; 
+    position: relative;
+}
+header a{
+    text-decoration: none;
+    float: left;
+    color: rgb(220, 225, 226);
+    padding-top: 8.5px;
+}
+header img{
+    float: left;
+    padding-top: 5px;
+}
+header ul{
+    margin:0 auto;
+    float: left;
+    padding-top: 15px;
+    
+    }
+header li{
+    display: inline;
+    }
+/* photo slide */
+.carousel-inner{
+    padding-top: 40px;
+}
+
+.carousel-inner p{
+    font-family:Khmer OS Bokor;
+    color: rgb(247, 246, 245);
+}
+#photo{
+    max-width: 1500px;
+    max-height: 700px;
+    padding-left: 110px;
+}
+/* boxes */
+#r{
+    padding-top:50px;
+    padding-left: 110px;
+    max-width: 1300px;
+}
+.card{
+    
+    float: left;
+}
+#c1{
+    width: 280px;
+    float: left;
+   
+    padding-left: 110px;
+}
+#c2{
+    width: 280px;
+    float: left;
+    
+    padding-left: 170px;
+}
+#c3{
+    width: 280px;
+    float: left;
+    padding-left: 230px;
+   
+}
+#c4{
+    width: 280px;
+    float: left;
+    padding-left: 285px;
+    
+}
+#card{
+    width: 1300px;
+    padding-top: 50px;
+}
+#content{ 
+    padding-top: 20px;
+    max-width:1300px ;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+
+/* form */
+#f{
+    padding-right: 70px; 
+    float: right;
+}
+
+/* heading */
+
+#heading{
+    max-width: 1300px;
+    min-height: 70px;
+    background:rgb(88, 88, 122);
+    margin-top: 50px;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+#heading h4{
+    padding-top:20px;
+    font-family:Khmer OS Metal Chrieng;
+}
+h5{
+    padding-top: 20px;
+    font-family: Khmer OS Metal Chrieng;
+}
+#cc1{
+    min-height:70px;
+    float: left; 
+}
+#cc2{
+    min-height:70px;
+    float: left; 
+    border-left: 2px black solid;
+}
+#cc3{
+    min-height:70px;
+    float: left; 
+    border-left: 2px black solid;
+}
+#cc4{
+    min-height:70px;
+    float: left; 
+    border-left: 2px black solid;
+}
+.nav-link{
+     font-family:Khmer OS Bokor;
+}
+.dropdown-toggle{
+    font-family:Khmer OS Muol Light;
+}
+
+footer{
+    margin-top: 20px;
+    font-family:Khmer OS Muol Light;
+    width: 100%;
+    max-height: 150px; 
+    background:rgb(61, 61, 122);
+    border-top: 3px rgb(78, 175, 179) solid;
+    color: rgb(220, 225, 226);
+    text-align: center;
+    position: relative;
+}
+footer p{
+    padding-top: 20px;
+}
+footer a{
+    padding-left: 5px;
+}
+#myTabContent p{
+  text-indent: 50px;
+  padding-top: 20px;
+  text-align: justify;
+}
